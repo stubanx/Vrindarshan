@@ -1,15 +1,19 @@
-// import logo from './logo.svg';
 import './App.css';
-import Head from "./header.js"
-import map from './map.jpg';
-import ImageMap from './imageMap';  
-import {TransformWrapper, TransformComponent, zoomIn, zoomOut} from "react-zoom-pan-pinch"
+// import Head from "./header.js"
+import ZoomableImage from './zoomableimage.js';
+// import ImageMap from './imageMap';  
 function App() {
-  return (
-    <Head/>
-  );
-}
-
+    return (
+        // <Head/>
+        <ZoomableImage/>
+        // <ImageMap/>
+    
+    
+    
+    
+    
+      );
+    }
 export default App;
 
 
