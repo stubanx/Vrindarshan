@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Vrindarshan/static/css/main.f855e6bc.css",
+    "main.js": "/Vrindarshan/static/js/main.6cb78d7d.js",
+    "static/js/453.edeba175.chunk.js": "/Vrindarshan/static/js/453.edeba175.chunk.js",
+    "static/media/map.jpg": "/Vrindarshan/static/media/map.19c9df119f2bfcd6e09f.jpg",
+    "static/media/OIP.jpeg": "/Vrindarshan/static/media/OIP.4b03635c1370f0d395a4.jpeg",
+    "index.html": "/Vrindarshan/index.html",
+    "main.f855e6bc.css.map": "/Vrindarshan/static/css/main.f855e6bc.css.map",
+    "main.6cb78d7d.js.map": "/Vrindarshan/static/js/main.6cb78d7d.js.map",
+    "453.edeba175.chunk.js.map": "/Vrindarshan/static/js/453.edeba175.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.6cb78d7d.js"
+  ]
+}
