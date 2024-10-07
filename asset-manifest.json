@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Vrindarshan/static/css/main.6af43e4b.css",
-    "main.js": "/Vrindarshan/static/js/main.508bc686.js",
+    "main.js": "/Vrindarshan/static/js/main.e40c0087.js",
     "static/js/453.edeba175.chunk.js": "/Vrindarshan/static/js/453.edeba175.chunk.js",
     "static/media/map.jpg": "/Vrindarshan/static/media/map.19c9df119f2bfcd6e09f.jpg",
     "index.html": "/Vrindarshan/index.html",
     "main.6af43e4b.css.map": "/Vrindarshan/static/css/main.6af43e4b.css.map",
-    "main.508bc686.js.map": "/Vrindarshan/static/js/main.508bc686.js.map",
+    "main.e40c0087.js.map": "/Vrindarshan/static/js/main.e40c0087.js.map",
     "453.edeba175.chunk.js.map": "/Vrindarshan/static/js/453.edeba175.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6af43e4b.css",
-    "static/js/main.508bc686.js"
+    "static/js/main.e40c0087.js"
   ]
 }
