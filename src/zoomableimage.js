@@ -8,13 +8,13 @@ const ZoomableImage = () => {
   return (
     <div style={{ width: '1192px', height: '80vh', overflow: 'auto', border: '1px solid black' }}>
       <TransformWrapper
-        initialScale={0.1}
-        initialPositionX={0}
-        initialPositionY={0}
+        initialScale={0.05}
+        initialPositionX={100}
+        initialPositionY={100}
       >
         {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
           <>
-            <div className="tools" /*style={{ marginBottom: '10px' }}*/>
+            <div className="tools" style={{ marginBottom: '20px' }}>
               <button onClick={() => zoomIn()}>Zoom In</button>
               <button onClick={() => zoomOut()}>Zoom Out</button>
               <button onClick={() => resetTransform()}>Reset</button>
