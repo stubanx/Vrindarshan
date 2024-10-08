@@ -1,36 +1,47 @@
 // src/ZoomableImage.js
-import map from "./map.jpg"
-import React from 'react';
+import mapimg from "./map.jpg"
+import React, {Component} from 'react';
 import "./App.css"
-import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
+import { TransformWrapper, TransformComponent, useControls } from 'react-zoom-pan-pinch';
 import ImageMap from "./imageMap.js"
+// import { Component } from "react";
+
+const Controls = () =>{
+  const { zoomIn, zoomOut, resetTransform} = useControls();
+  return (
+    <div className="tools" style={{ margin: '20px', position:'sticky', top: '20px'}}>
+              <button onClick={() => zoomIn()}>++ </button>
+              <button onClick={() => zoomOut()}>-- </button>
+              <button onClick={() => resetTransform()}>XX </button>
+            </div>
+  );
+};
 const ZoomableImage = () => {
   return (
-    <div style={{ width: '1192px', height: '80vh', overflow: 'auto', border: '1px solid black' }}>
-      <TransformWrapper
-        initialScale={0.05}
-        initialPositionX={100}
+    <TransformWrapper
+    initialScale={1}
+    initialPositionX={100}
         initialPositionY={100}
       >
-        {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
+        {({zoomIn, zoomOut, resetTransform, ...rest}) => (
           <>
-            <div className="tools" style={{ marginBottom: '20px' }}>
-              <button onClick={() => zoomIn()}>Zoom In</button>
-              <button onClick={() => zoomOut()}>Zoom Out</button>
-              <button onClick={() => resetTransform()}>Reset</button>
-            </div>
             <TransformComponent>
+              {/* <canvas> */}
+
+               {/* <div style={{ width: '1192px', height: '80vh', overflow: 'auto', border: '1px solid black' }}> */}
+              <Controls/>
               <img
-                src={map}
+                src={mapimg}
                 alt="Zoomable"
-                // style={{ width: '720px', height: '80vh' }}
-              />
-              <ImageMap/>
+                style={{ width: '720px', height: '80vh' }}
+                />
+                <ImageMap/>
+                {/* </canvas> */}
+        {/* </div> */}
             </TransformComponent>
           </>
         )}
       </TransformWrapper>
-     </div>
   );
 };
 
