@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Vrindarshan/static/css/main.6af43e4b.css",
-    "main.js": "/Vrindarshan/static/js/main.92609161.js",
+    "main.css": "/Vrindarshan/static/css/main.de5483f6.css",
+    "main.js": "/Vrindarshan/static/js/main.66e374f9.js",
     "static/js/453.edeba175.chunk.js": "/Vrindarshan/static/js/453.edeba175.chunk.js",
     "static/media/map.jpg": "/Vrindarshan/static/media/map.19c9df119f2bfcd6e09f.jpg",
+    "static/media/jpeg": "/Vrindarshan/static/media/60e3f60aec5d1f0008e1c908.672efa266654987dbe24.jpeg",
     "index.html": "/Vrindarshan/index.html",
-    "main.6af43e4b.css.map": "/Vrindarshan/static/css/main.6af43e4b.css.map",
-    "main.92609161.js.map": "/Vrindarshan/static/js/main.92609161.js.map",
+    "main.de5483f6.css.map": "/Vrindarshan/static/css/main.de5483f6.css.map",
+    "main.66e374f9.js.map": "/Vrindarshan/static/js/main.66e374f9.js.map",
     "453.edeba175.chunk.js.map": "/Vrindarshan/static/js/453.edeba175.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6af43e4b.css",
-    "static/js/main.92609161.js"
+    "static/css/main.de5483f6.css",
+    "static/js/main.66e374f9.js"
   ]
 }

@@ -1,3 +1,16 @@
+/*!
+ * Photo Sphere Viewer 5.10.1
+ * @copyright 2014-2015 Jérémy Heleine
+ * @copyright 2015-2024 Damien "Mistic" Sorel
+ * @licence MIT (https://opensource.org/licenses/MIT)
+ */
+
+/**
+ * @license
+ * Copyright 2010-2024 Three.js Authors
+ * SPDX-License-Identifier: MIT
+ */
+
 /**
  * @license React
  * react-dom.production.min.js
