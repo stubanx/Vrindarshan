@@ -3,7 +3,7 @@ import mapimg from "./map.jpg"
 import React, {Component} from 'react';
 import "./App.css"
 import { TransformWrapper, TransformComponent, useControls } from 'react-zoom-pan-pinch';
-import ImageMap from "./imageMap.js"
+import MyImageMap from "./imageMap.js";
 // import { Component } from "react";
 
 const Controls = () =>{
@@ -25,17 +25,17 @@ const ZoomableImage = () => {
       >
         {({zoomIn, zoomOut, resetTransform, ...rest}) => (
           <>
+               <Controls/>
             <TransformComponent>
               {/* <canvas> */}
 
                {/* <div style={{ width: '1192px', height: '80vh', overflow: 'auto', border: '1px solid black' }}> */}
-              <Controls/>
               <img
                 src={mapimg}
                 alt="Zoomable"
                 style={{ width: '720px', height: '80vh' }}
                 />
-                <ImageMap/>
+                <MyImageMap/>
                 {/* </canvas> */}
         {/* </div> */}
             </TransformComponent>
@@ -46,3 +46,5 @@ const ZoomableImage = () => {
 };
 
 export default ZoomableImage;
+
+
